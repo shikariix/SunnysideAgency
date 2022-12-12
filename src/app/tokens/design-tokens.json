@@ -1,0 +1,28 @@
+{
+    "unit": "rem",
+    "font-size": "18",
+    "colors": [
+      { "type": "soft-red", "color": "hsl(7, 99%, 70%)" },
+      { "type": "yellow", "color": "hsl(51, 100%, 49%)" },
+      { "type": "dark-cyan", "color": "hsl(167, 40%, 24%)" },
+      { "type": "dark-blue", "color": "hsl(198, 62%, 26%)" },
+      { "type": "moderate-cyan", "color": "hsl(168, 34%, 41%)" },
+      { "type": "very-dark-blue", "color": "hsl(212, 27%, 19%)" },
+      { "type": "very-dark-grayish-blue", "color": "hsl(213, 9%, 39%)" },
+      { "type": "dark-grayish-blue", "color": "hsl(232, 10%, 55%)" },
+      { "type": "grayish-blue", "color": "hsl(210, 4%, 67%)" },
+      { "type": "white", "color": "hsl(0, 0%, 100%)" }
+
+      
+    ],
+    "fonts": [
+      { "type": "barlow-bold", "uri": "'https://fonts.google.com/specimen/Barlow'", "weight": 600 },
+      { "type": "fraundes-bold", "uri": "'https://fonts.google.com/specimen/Fraunces'", "weight": 700 },
+      { "type": "fraunces-heavy", "uri": "'https://fonts.google.com/specimen/Fraunces'", "weight": 900 }
+    ],
+    "spacing": {
+      "small": 1,
+      "medium": 2,
+      "large": 3
+    }
+  }
