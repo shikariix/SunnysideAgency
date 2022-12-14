@@ -2,3 +2,11 @@ $unit: map-get($tokens, 'unit');
 $fontsize: map-get($tokens, 'font-size');
 $colors: map-get($tokens, 'colors');
 $fonts: map-get($tokens, 'fonts');
+
+@each $category, $style, $value in $colors {
+    //for every color, create a css class with its type as name and color property as color
+    /*! #{$style} */
+    
+    /*! #{$category} */
+    /*! #{$value} */
+  }
