@@ -2,33 +2,43 @@ $tokens: (
   unit: rem,
   font-size: 18,
   colors: ((
+    category: primary,
     type: soft-red,
     color: hsl(7, 99%, 70%)
   ), (
+    category: primary,
     type: yellow,
     color: hsl(51, 100%, 49%)
   ), (
+    category: primary,
     type: dark-cyan,
     color: hsl(167, 40%, 24%)
   ), (
+    category: primary,
     type: dark-blue,
     color: hsl(198, 62%, 26%)
   ), (
+    category: neutral,
     type: moderate-cyan,
     color: hsl(168, 34%, 41%)
   ), (
+    category: neutral,
     type: very-dark-blue,
     color: hsl(212, 27%, 19%)
   ), (
+    category: neutral,
     type: very-dark-grayish-blue,
     color: hsl(213, 9%, 39%)
   ), (
+    category: neutral,
     type: dark-grayish-blue,
     color: hsl(232, 10%, 55%)
   ), (
+    category: neutral,
     type: grayish-blue,
     color: hsl(210, 4%, 67%)
   ), (
+    category: neutral,
     type: white,
     color: hsl(0, 0%, 100%)
   )),
