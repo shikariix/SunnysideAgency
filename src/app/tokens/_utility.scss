@@ -1,0 +1,18 @@
+/** UTILITY: Colors **/
+@each $color in $colors {
+    //for every color, create a css class with its type as name and color property as color
+    $type: map-get($color, 'type');
+    $category: map-get($color, 'category');
+    $value: map-get($color, 'color');
+
+    $class: "." + $type;
+    $variable: "var(--" + $type + ")";
+
+    #{$class} {
+         color: #{$variable};
+    }
+
+    #{$class}-background {
+     background-color: #{$variable};
+}
+  }

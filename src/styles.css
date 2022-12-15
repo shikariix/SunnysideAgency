@@ -1,5 +1,5 @@
 :root {
-  /*! colors */
+  /* colors */
   --soft-red: hsl(7deg, 99%, 70%);
   --yellow: hsl(51deg, 100%, 49%);
   --dark-cyan: hsl(167deg, 40%, 24%);
@@ -10,4 +10,165 @@
   --dark-grayish-blue: hsl(232deg, 10%, 55%);
   --grayish-blue: hsl(210deg, 4%, 67%);
   --white: hsl(0deg, 0%, 100%);
+}
+
+/** UTILITY: Colors **/
+.soft-red {
+  color: var(--soft-red);
+}
+
+.soft-red-background {
+  background-color: var(--soft-red);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.yellow-background {
+  background-color: var(--yellow);
+}
+
+.dark-cyan {
+  color: var(--dark-cyan);
+}
+
+.dark-cyan-background {
+  background-color: var(--dark-cyan);
+}
+
+.dark-blue {
+  color: var(--dark-blue);
+}
+
+.dark-blue-background {
+  background-color: var(--dark-blue);
+}
+
+.moderate-cyan {
+  color: var(--moderate-cyan);
+}
+
+.moderate-cyan-background {
+  background-color: var(--moderate-cyan);
+}
+
+.very-dark-blue {
+  color: var(--very-dark-blue);
+}
+
+.very-dark-blue-background {
+  background-color: var(--very-dark-blue);
+}
+
+.very-dark-grayish-blue {
+  color: var(--very-dark-grayish-blue);
+}
+
+.very-dark-grayish-blue-background {
+  background-color: var(--very-dark-grayish-blue);
+}
+
+.dark-grayish-blue {
+  color: var(--dark-grayish-blue);
+}
+
+.dark-grayish-blue-background {
+  background-color: var(--dark-grayish-blue);
+}
+
+.grayish-blue {
+  color: var(--grayish-blue);
+}
+
+.grayish-blue-background {
+  background-color: var(--grayish-blue);
+}
+
+.white {
+  color: var(--white);
+}
+
+.white-background {
+  background-color: var(--white);
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 10px;
+}
+
+.navigation {
+  background: none;
+  color: var(--white);
+}
+
+.primary {
+  background: var(--white);
+  color: #333;
+  text-transform: uppercase;
+  border-radius: 18px;
+  font-weight: 700;
+}
+
+.inline {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-horizontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  align-content: space-between;
+}
+
+.padding-small {
+  padding: 0.5rem;
+}
+
+.padding-medium {
+  padding: 1rem;
+}
+
+.padding-large {
+  padding: 2rem;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */

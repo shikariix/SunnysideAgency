@@ -1,1 +1,15 @@
-/*# sourceMappingURL=header.component.css.map */
+#header {
+  background-image: url("../../../assets/images/desktop/image-header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+@media screen and (max-width: 375px) {
+  #header {
+    background-image: url("../../../assets/images/mobile/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+  }
+}/*# sourceMappingURL=header.component.css.map */

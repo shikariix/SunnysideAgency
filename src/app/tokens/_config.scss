@@ -4,9 +4,9 @@ $colors: map-get($tokens, 'colors');
 $fonts: map-get($tokens, 'fonts');
 
 :root {
-  /*! colors */
+  /* colors */
   @each $color in $colors {
-      //for every color, create a css class with its type as name and color property as color
+      //for every color, create a css variable with its type as name and color as value
       $type: map-get($color, 'type');
       $category: map-get($color, 'category');
       $value: map-get($color, 'color');

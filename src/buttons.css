@@ -1,0 +1,23 @@
+button {
+  border: none;
+  background: none;
+}
+
+.navigation {
+  background: none;
+  color: var(--white);
+}
+
+.primary {
+  background: var(--white);
+  color: #333;
+  text-transform: uppercase;
+  border-radius: 24px;
+  font-weight: 700;
+  width: 120px;
+}
+
+.inline {
+  text-transform: uppercase;
+  font-weight: 700;
+}/*# sourceMappingURL=buttons.css.map */

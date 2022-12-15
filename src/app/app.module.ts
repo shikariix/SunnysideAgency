@@ -13,6 +13,8 @@ import { NavigationComponent } from './molecule/navigation/navigation.component'
 import { MainComponent } from './page/main/main.component';
 import { BodyComponent } from './organism/body/body.component';
 import { FooterComponent } from './organism/footer/footer.component';
+import { PageHeaderComponent } from './molecule/page-header/page-header/page-header.component';
+import { ArrowIconComponent } from './atom/arrow-icon/arrow-icon/arrow-icon.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { FooterComponent } from './organism/footer/footer.component';
     NavigationComponent,
     MainComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    PageHeaderComponent,
+    ArrowIconComponent
   ],
   imports: [
     BrowserModule
