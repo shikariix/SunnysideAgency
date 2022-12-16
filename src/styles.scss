@@ -8,6 +8,13 @@
     padding: 0;
 }
 
+body {
+    font-family: var(--barlow);
+    font-size: 1rem;
+}
+
+/* UTILITY */
+
 .flex-horizontal {
     display: flex;
     flex-direction: row;
@@ -39,6 +46,18 @@
     padding: 2rem;
 }
 
+.margin-small {
+    margin: 0.5rem;
+}
+
+.margin-medium {
+    margin: 1rem;
+}
+
+.margin-large {
+    margin: 2rem;
+}
+
 .align-left {
     text-align: left;
 }
@@ -53,4 +72,8 @@
 
 .full-width {
     width: 100%;
+}
+
+.sticky {
+    position: sticky;
 }

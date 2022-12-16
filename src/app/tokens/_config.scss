@@ -15,4 +15,12 @@ $fonts: map-get($tokens, 'fonts');
       #{$class}: #{$value};
       
     }
+
+    @each $font in $fonts {
+      $type: map-get($font, 'type');
+      $family: map-get($font, 'family');
+
+      $class: "--" + $type;
+      #{$class}: #{$family};
+    }
 }

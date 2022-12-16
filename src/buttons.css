@@ -15,6 +15,7 @@ button {
   border-radius: 24px;
   font-weight: 700;
   width: 120px;
+  font-family: var(--fraunces);
 }
 
 .inline {

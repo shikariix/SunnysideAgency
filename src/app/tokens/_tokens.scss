@@ -43,17 +43,13 @@ $tokens: (
     color: hsl(0, 0%, 100%)
   )),
   fonts: ((
-    type: barlow-bold,
-    uri: 'https://fonts.google.com/specimen/Barlow',
-    weight: 600
+    type: barlow,
+    family: "Barlow, sans-serif",
+    weight: (600)
   ), (
-    type: fraundes-bold,
-    uri: 'https://fonts.google.com/specimen/Fraunces',
-    weight: 700
-  ), (
-    type: fraunces-heavy,
-    uri: 'https://fonts.google.com/specimen/Fraunces',
-    weight: 900
+    type: fraunces,
+    family: "Fraunces, serif",
+    weight: (700, 900)
   )),
   spacing: (
     small: 1,

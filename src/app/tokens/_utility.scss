@@ -3,16 +3,28 @@
     //for every color, create a css class with its type as name and color property as color
     $type: map-get($color, 'type');
     $category: map-get($color, 'category');
-    $value: map-get($color, 'color');
 
     $class: "." + $type;
     $variable: "var(--" + $type + ")";
 
     #{$class} {
          color: #{$variable};
-    }
+     }
 
     #{$class}-background {
-     background-color: #{$variable};
-}
+          background-color: #{$variable};
+     }
+  }
+  @each $font in $fonts {
+     $type: map-get($font, 'type');
+     $weights: map-get($font , 'weight');
+
+     /* #{$type} */
+     @each $weight in $weights {
+          $class: "." + $type + "-" + #{$weight};
+          #{$class} {
+               font-family: var(--#{$type});
+               font-weight: #{$weight};
+          }
+     }
   }
