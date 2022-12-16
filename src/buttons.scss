@@ -4,23 +4,65 @@ button {
 }
 
 
-.navigation {
+.navigation button {
     background: none;
     color: var(--white);
-}
-
-.primary {
-    background: var(--white);
-    color: #333;
-    text-transform: uppercase;
     border-radius: 24px;
-    font-weight: 700;
-    width: 120px;
-    font-family: var(--fraunces);
+    transition: 0.3s;
+
+    &:hover {
+        background-color: var(--white);
+        opacity: 0.5;
+        cursor: pointer;
+
+        label {
+            color: var(--white);
+            opacity: 1;
+        }
+    }
+
+    &.primary {
+        background: var(--white);
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: var(--fraunces);
+        width: 120px;
+
+        label {
+            color: var(--very-dark-blue);
+        }
+    }
 }
 
-.inline {
-    text-transform: uppercase;
-    font-weight: 700;
+
+
+.learn-more {
+    width: max-content;
+
+    a:link {
+        font-family: var(--fraunces);
+        text-transform: uppercase;
+        font-weight: 700;
+        text-decoration: none;
+        color: var(--very-dark-blue);
+        position: relative;
+        z-index: 99;
+    }
+    
+    div {
+        width: 100%;
+        height: 10px;
+        background-color: var(--yellow);
+        border-radius: 5px;
+        margin-top: -8px;
+        opacity: 0.3;
+        transition: opacity 0.3s;
+    }
+
+    &:hover {
+        div {
+            opacity: 1;
+        }
+    }
 }
 

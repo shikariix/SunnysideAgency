@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class ImageComponent {
   @Input() source!: string;
   @Input() title!: string;
+  @Input() css!: string;
 }

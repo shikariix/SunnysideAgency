@@ -119,6 +119,12 @@ h1 {
   margin: 100px;
 }
 
+h2 {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  font-size: 2rem;
+}
+
 button {
   border: none;
   background: none;
@@ -139,9 +145,13 @@ button {
   font-family: var(--fraunces);
 }
 
-.inline {
+.learn-more {
   text-transform: uppercase;
   font-weight: 700;
+  max-height: 10px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  font-family: var(--fraunces);
 }
 
 * {
@@ -198,6 +208,10 @@ body {
   margin: 2rem;
 }
 
+.margin-vertical-medium {
+  margin: 1rem 0;
+}
+
 .align-left {
   text-align: left;
 }
@@ -212,6 +226,12 @@ body {
 
 .full-width {
   width: 100%;
+}
+
+.min-height {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .sticky {

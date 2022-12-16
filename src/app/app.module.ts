@@ -11,10 +11,14 @@ import { ImageComponent } from './atom/image/image.component';
 import { HeaderComponent } from './organism/header/header.component';
 import { NavigationComponent } from './molecule/navigation/navigation.component';
 import { MainComponent } from './page/main/main.component';
-import { BodyComponent } from './organism/body/body.component';
 import { FooterComponent } from './organism/footer/footer.component';
-import { PageHeaderComponent } from './molecule/page-header/page-header/page-header.component';
-import { ArrowIconComponent } from './atom/arrow-icon/arrow-icon/arrow-icon.component';
+import { PageHeaderComponent } from './molecule/page-header/page-header.component';
+import { ArrowIconComponent } from './atom/arrow-icon/arrow-icon.component';
+import { TextComponentComponent } from './molecule/text-component/text-component.component';
+import { LearnMoreComponent } from './organism/learn-more/learn-more.component';
+import { TextOnImageComponent } from './organism/text-on-image/text-on-image.component';
+import { LearnMoreParagraphComponent } from './molecule/learn-more-paragraph/learn-more-paragraph.component';
+import { LearnMoreButtonComponent } from './atom/learn-more-button/learn-more-button.component';
 
 @NgModule({
   declarations: [
@@ -28,10 +32,14 @@ import { ArrowIconComponent } from './atom/arrow-icon/arrow-icon/arrow-icon.comp
     HeaderComponent,
     NavigationComponent,
     MainComponent,
-    BodyComponent,
     FooterComponent,
     PageHeaderComponent,
-    ArrowIconComponent
+    ArrowIconComponent,
+    TextComponentComponent,
+    LearnMoreComponent,
+    TextOnImageComponent,
+    LearnMoreParagraphComponent,
+    LearnMoreButtonComponent
   ],
   imports: [
     BrowserModule

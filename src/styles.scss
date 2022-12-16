@@ -58,6 +58,10 @@ body {
     margin: 2rem;
 }
 
+.margin-vertical-medium {
+    margin: 1rem 0;
+}
+
 .align-left {
     text-align: left;
 }
@@ -72,6 +76,10 @@ body {
 
 .full-width {
     width: 100%;
+}
+
+.min-height {
+    height: max-content;
 }
 
 .sticky {

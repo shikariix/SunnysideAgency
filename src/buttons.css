@@ -3,22 +3,55 @@ button {
   background: none;
 }
 
-.navigation {
+.navigation button {
   background: none;
   color: var(--white);
-}
-
-.primary {
-  background: var(--white);
-  color: #333;
-  text-transform: uppercase;
   border-radius: 24px;
-  font-weight: 700;
-  width: 120px;
-  font-family: var(--fraunces);
+  transition: 0.3s;
 }
-
-.inline {
+.navigation button:hover {
+  background-color: var(--white);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.navigation button:hover label {
+  color: var(--white);
+  opacity: 1;
+}
+.navigation button.primary {
+  background: var(--white);
   text-transform: uppercase;
   font-weight: 700;
+  font-family: var(--fraunces);
+  width: 120px;
+}
+.navigation button.primary label {
+  color: var(--very-dark-blue);
+}
+
+.learn-more {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.learn-more a:link {
+  font-family: var(--fraunces);
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--very-dark-blue);
+  position: relative;
+  z-index: 99;
+}
+.learn-more div {
+  width: 100%;
+  height: 10px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  margin-top: -8px;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+.learn-more:hover div {
+  opacity: 1;
 }/*# sourceMappingURL=buttons.css.map */

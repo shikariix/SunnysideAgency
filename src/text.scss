@@ -4,3 +4,16 @@ h1 {
     letter-spacing: 0.5rem;
     margin: 100px;
 }
+
+h2 {
+    font-family: var(--fraunces);
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--very-dark-blue);
+}
+
+p {
+    color: var(--dark-grayish-blue);
+    line-height: 160%;
+    font-size: 1.1rem;
+}
