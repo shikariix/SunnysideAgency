@@ -19,6 +19,7 @@ import { LearnMoreComponent } from './organism/learn-more/learn-more.component';
 import { TextOnImageComponent } from './organism/text-on-image/text-on-image.component';
 import { LearnMoreParagraphComponent } from './molecule/learn-more-paragraph/learn-more-paragraph.component';
 import { LearnMoreButtonComponent } from './atom/learn-more-button/learn-more-button.component';
+import { CenteredTextComponent } from './molecule/centered-text/centered-text.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { LearnMoreButtonComponent } from './atom/learn-more-button/learn-more-bu
     LearnMoreComponent,
     TextOnImageComponent,
     LearnMoreParagraphComponent,
-    LearnMoreButtonComponent
+    LearnMoreButtonComponent,
+    CenteredTextComponent
   ],
   imports: [
     BrowserModule

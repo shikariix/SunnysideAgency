@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class ParagraphComponent {
   @Input() text!: string;
+  @Input() color!: string;
 }

@@ -1,8 +1,23 @@
 <app-header></app-header>
 <div>
-    <app-learn-more image="../../../assets/images/desktop/image-transform.jpg"></app-learn-more>
-    <app-learn-more image="../../../assets/images/desktop/image-stand-out.jpg"></app-learn-more>
-    <app-text-on-image></app-text-on-image>
-    <app-text-on-image></app-text-on-image>
+    <app-learn-more 
+    image="../../../assets/images/desktop/image-transform.jpg" 
+    [imageLeft]="false"
+    color="var(--yellow"></app-learn-more>
+    <app-learn-more 
+    image="../../../assets/images/desktop/image-stand-out.jpg"
+    [imageLeft]="true"
+    color="var(--soft-red)"></app-learn-more>
+
+    <div class=grid-horizontal>
+        <app-text-on-image 
+        image="../../../assets/images/desktop/image-graphic-design.jpg"
+        textColor="var(--dark-cyan)"
+        ></app-text-on-image>
+        <app-text-on-image 
+        image="../../../assets/images/desktop/image-photography.jpg"
+        textColor="var(--dark-blue)"
+        ></app-text-on-image>
+    </div>
 </div>
 <app-footer></app-footer>

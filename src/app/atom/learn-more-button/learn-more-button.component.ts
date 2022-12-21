@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-learn-more-button',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./learn-more-button.component.scss']
 })
 export class LearnMoreButtonComponent {
-
+  @Input() color!: string;
 }

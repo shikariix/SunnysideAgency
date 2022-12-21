@@ -1,4 +1,12 @@
-<div class="grid-horizontal">
-    <app-learn-more-paragraph></app-learn-more-paragraph>
-    <app-image source={{image}} css="full-width"></app-image>
+<div class="grid-horizontal" >
+    <ng-template [ngIf]="imageLeft" [ngIfElse]="imageRight">
+        <app-image source={{image}} css="full-width" [ngStyle]="{'background': color}"></app-image>
+        <app-learn-more-paragraph color="{{color}}"></app-learn-more-paragraph>
+    </ng-template>
+
+    <ng-template #imageRight>
+        <app-learn-more-paragraph color="{{color}}"></app-learn-more-paragraph>
+        <app-image source={{image}} css="full-width" [ngStyle]="{'background': color}"></app-image>
+    </ng-template>
+
 </div>

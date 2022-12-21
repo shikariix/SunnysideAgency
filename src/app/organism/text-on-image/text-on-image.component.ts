@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-text-on-image',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./text-on-image.component.scss']
 })
 export class TextOnImageComponent {
-
+  @Input() image!: string;
+  @Input() textColor: string = "var(--very-dark-blue)";
 }

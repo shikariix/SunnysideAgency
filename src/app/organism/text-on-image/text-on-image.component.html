@@ -1,1 +1,9 @@
-<p>text-on-image works!</p>
+<div [ngStyle]="{
+    'background-image': 'url(' + image + ')', 
+    'background-size': 'cover',
+    'padding-top': '500px'
+    }" 
+    class="padding-large">
+
+    <app-centered-text color="{{textColor}}"></app-centered-text>
+</div>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-learn-more-paragraph',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./learn-more-paragraph.component.scss']
 })
 export class LearnMoreParagraphComponent {
-
+  @Input() color!: string;
 }
