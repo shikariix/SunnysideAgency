@@ -14,12 +14,11 @@ import { MainComponent } from './page/main/main.component';
 import { FooterComponent } from './organism/footer/footer.component';
 import { PageHeaderComponent } from './molecule/page-header/page-header.component';
 import { ArrowIconComponent } from './atom/arrow-icon/arrow-icon.component';
-import { TextComponentComponent } from './molecule/text-component/text-component.component';
 import { LearnMoreComponent } from './organism/learn-more/learn-more.component';
 import { TextOnImageComponent } from './organism/text-on-image/text-on-image.component';
 import { LearnMoreParagraphComponent } from './molecule/learn-more-paragraph/learn-more-paragraph.component';
 import { LearnMoreButtonComponent } from './atom/learn-more-button/learn-more-button.component';
-import { CenteredTextComponent } from './molecule/centered-text/centered-text.component';
+import { TestimonialsComponent } from './organism/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -36,12 +35,11 @@ import { CenteredTextComponent } from './molecule/centered-text/centered-text.co
     FooterComponent,
     PageHeaderComponent,
     ArrowIconComponent,
-    TextComponentComponent,
     LearnMoreComponent,
     TextOnImageComponent,
     LearnMoreParagraphComponent,
     LearnMoreButtonComponent,
-    CenteredTextComponent
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule

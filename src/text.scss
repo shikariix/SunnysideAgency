@@ -1,3 +1,7 @@
+h1, h2, h3, h4 {
+    font-family: var(--fraunces);
+}
+
 h1 {
     text-transform: uppercase;
     font-size: 3rem;
@@ -6,14 +10,40 @@ h1 {
 }
 
 h2 {
-    font-family: var(--fraunces);
     font-weight: 900;
     font-size: 2rem;
     color: var(--very-dark-blue);
 }
 
-p {
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
     color: var(--dark-grayish-blue);
+    font-size: 1.1rem;
+}
+
+h4 {
+    color: var(--very-dark-blue);
+    font-size: 1rem;
+}
+
+h5 {
+    color: var(--dark-grayish-blue);
+    font-family: var(--barlow);
+    font-size: 0.5rem;
+}
+
+p {
     line-height: 160%;
     font-size: 1.1rem;
+}
+
+p[data-paragraph-type="primary"] {
+    color: var(--dark-grayish-blue);
+
+}
+
+p[data-paragraph-type="secondary"] {
+    color: var(--very-dark-blue);
+    text-align: center;
 }

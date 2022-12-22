@@ -6,5 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./learn-more-paragraph.component.scss']
 })
 export class LearnMoreParagraphComponent {
+  @Input() title!: string;
+  @Input() text!: string;
   @Input() color!: string;
 }

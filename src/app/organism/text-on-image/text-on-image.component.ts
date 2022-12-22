@@ -7,5 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class TextOnImageComponent {
   @Input() image!: string;
+  @Input() title!: string;
+  @Input() text!: string;
   @Input() textColor: string = "var(--very-dark-blue)";
 }

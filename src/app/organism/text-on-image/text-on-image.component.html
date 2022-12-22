@@ -5,5 +5,16 @@
     }" 
     class="padding-large">
 
-    <app-centered-text color="{{textColor}}"></app-centered-text>
+    <div style="width:500px; margin: auto">
+        <app-paragraph-title 
+        text={{title}} 
+        class="align-center margin-small"
+        color="{{textColor}}">
+    </app-paragraph-title>
+        <app-paragraph 
+        text={{text}} 
+        class="align-center"
+        color="{{textColor}}">
+    </app-paragraph>
+    </div>
 </div>
