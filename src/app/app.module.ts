@@ -20,6 +20,8 @@ import { LearnMoreParagraphComponent } from './molecule/learn-more-paragraph/lea
 import { LearnMoreButtonComponent } from './atom/learn-more-button/learn-more-button.component';
 import { TestimonialsComponent } from './organism/testimonials/testimonials.component';
 import { TestimonialComponent } from './molecule/testimonial/testimonial.component';
+import { ImageRowComponent } from './molecule/image-row/image-row.component';
+import { SocialComponent } from './atom/social/social.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { TestimonialComponent } from './molecule/testimonial/testimonial.compone
     LearnMoreParagraphComponent,
     LearnMoreButtonComponent,
     TestimonialsComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    ImageRowComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule

@@ -13,6 +13,11 @@ body {
     font-size: 1rem;
 }
 
+footer {
+    background: #90d4c5;
+    color: var(--dark-cyan);
+}
+
 /* UTILITY */
 
 .flex-horizontal {
@@ -29,7 +34,14 @@ body {
 
 .grid-horizontal {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    align-content: space-between;
+}
+
+.grid-horizontal-four {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
     align-items: center;
     align-content: space-between;
 }

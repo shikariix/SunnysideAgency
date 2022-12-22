@@ -1,14 +1,28 @@
 button {
     border: none;
     background: none;
+    transition: 0.3s;
+
+    &.footer {
+        color: var(--dark-cyan);
+        font-family: var(--barlow);
+    }
+
+    &:hover {
+        cursor: pointer;
+        color: var(--white);
+
+        label {
+            color: var(--white);
+            cursor: pointer;
+        }
+    }
 }
 
 
 .navigation button {
-    background: none;
     color: var(--white);
     border-radius: 24px;
-    transition: 0.3s;
 
     &.primary {
         background: var(--white);
@@ -22,15 +36,10 @@ button {
             color: var(--very-dark-blue);
         }
     }
+
     
     &:hover {
         background-color: rgba(250, 250, 250, 0.4);
-        cursor: pointer;
-
-        label {
-            color: var(--white);
-            cursor: pointer;
-        }
     }
 }
 
@@ -66,3 +75,11 @@ button {
     }
 }
 
+.social {
+    margin: 1rem;
+    transition: 0.3s;
+
+    &:hover svg {
+        fill: var(--white);
+    }
+}
