@@ -1,9 +1,10 @@
 <div [ngStyle]="{
     'background-image': 'url(' + image + ')', 
     'background-size': 'cover',
-    'padding-top': '500px'
+    'padding-top': '500px',
+    'background-position': 'center'
     }" 
-    class="padding-large">
+    class="padding-huge">
 
     <div style="width:500px; margin: auto">
         <app-paragraph-title 
@@ -14,7 +15,8 @@
         <app-paragraph 
         text={{text}} 
         class="align-center"
-        color="{{textColor}}">
+        color="{{textColor}}"
+        type="secondary">
     </app-paragraph>
     </div>
 </div>

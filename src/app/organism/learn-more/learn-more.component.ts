@@ -8,5 +8,6 @@ import { Component, Input } from '@angular/core';
 export class LearnMoreComponent {
   @Input() image!: string;
   @Input() imageLeft: boolean = false;
+  @Input() text!: string;
   @Input() color!: string;
 }

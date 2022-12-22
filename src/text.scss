@@ -17,20 +17,23 @@ h2 {
 
 h3 {
     text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    color: var(--dark-grayish-blue);
-    font-size: 1.1rem;
+    letter-spacing: 0.3rem;
+    color: var(--grayish-blue);
+    font-size: 1.4rem;
+    margin: 3rem;
+    font-weight: 900;
 }
 
 h4 {
     color: var(--very-dark-blue);
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem;
 }
 
 h5 {
-    color: var(--dark-grayish-blue);
+    color: var(--grayish-blue);
     font-family: var(--barlow);
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 p {
@@ -38,12 +41,27 @@ p {
     font-size: 1.1rem;
 }
 
-p[data-paragraph-type="primary"] {
+p.primary {
     color: var(--dark-grayish-blue);
 
 }
 
-p[data-paragraph-type="secondary"] {
-    color: var(--very-dark-blue);
+p.secondary {
+    color: var(--very-dark-grayish-blue);
+    text-align: center;
+    font-size: 1.2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
     text-align: center;
 }

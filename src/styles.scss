@@ -46,6 +46,10 @@ body {
     padding: 2rem;
 }
 
+.padding-huge {
+    padding: 6rem;
+}
+
 .margin-small {
     margin: 0.5rem;
 }
@@ -58,20 +62,12 @@ body {
     margin: 2rem;
 }
 
+.margin-huge {
+    margin: 6rem;
+}
+
 .margin-vertical-medium {
     margin: 1rem 0;
-}
-
-.align-left {
-    text-align: left;
-}
-
-.align-right {
-    text-align: right;
-}
-
-.align-center {
-    text-align: center;
 }
 
 .full-width {
@@ -85,4 +81,9 @@ body {
 
 .sticky {
     position: sticky;
+}
+
+.rounded {
+    border-radius: 50%;
+    overflow: hidden;
 }

@@ -112,6 +112,10 @@
   font-weight: 900;
 }
 
+h1, h2, h3, h4 {
+  font-family: var(--fraunces);
+}
+
 h1 {
   text-transform: uppercase;
   font-size: 3rem;
@@ -120,16 +124,59 @@ h1 {
 }
 
 h2 {
-  font-family: var(--fraunces);
   font-weight: 900;
   font-size: 2rem;
   color: var(--very-dark-blue);
 }
 
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: var(--grayish-blue);
+  font-size: 1.4rem;
+  margin: 3rem;
+  font-weight: 900;
+}
+
+h4 {
+  color: var(--very-dark-blue);
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+h5 {
+  color: var(--grayish-blue);
+  font-family: var(--barlow);
+  font-size: 1rem;
+}
+
 p {
-  color: var(--dark-grayish-blue);
   line-height: 160%;
   font-size: 1.1rem;
+}
+
+p.primary {
+  color: var(--dark-grayish-blue);
+}
+
+p.secondary {
+  color: var(--very-dark-grayish-blue);
+  text-align: center;
+  font-size: 1.2rem;
+  width: 80%;
+  margin: auto;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
 }
 
 button {
@@ -232,6 +279,10 @@ body {
   padding: 2rem;
 }
 
+.padding-huge {
+  padding: 6rem;
+}
+
 .margin-small {
   margin: 0.5rem;
 }
@@ -244,20 +295,12 @@ body {
   margin: 2rem;
 }
 
+.margin-huge {
+  margin: 6rem;
+}
+
 .margin-vertical-medium {
   margin: 1rem 0;
-}
-
-.align-left {
-  text-align: left;
-}
-
-.align-right {
-  text-align: right;
-}
-
-.align-center {
-  text-align: center;
 }
 
 .full-width {
@@ -274,4 +317,9 @@ body {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
+}
+
+.rounded {
+  border-radius: 50%;
+  overflow: hidden;
 }/*# sourceMappingURL=styles.css.map */

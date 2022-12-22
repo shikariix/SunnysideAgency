@@ -19,6 +19,7 @@ import { TextOnImageComponent } from './organism/text-on-image/text-on-image.com
 import { LearnMoreParagraphComponent } from './molecule/learn-more-paragraph/learn-more-paragraph.component';
 import { LearnMoreButtonComponent } from './atom/learn-more-button/learn-more-button.component';
 import { TestimonialsComponent } from './organism/testimonials/testimonials.component';
+import { TestimonialComponent } from './molecule/testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { TestimonialsComponent } from './organism/testimonials/testimonials.comp
     TextOnImageComponent,
     LearnMoreParagraphComponent,
     LearnMoreButtonComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule
